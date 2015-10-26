@@ -1,0 +1,43 @@
+img{
+  width:100%;
+  height:auto;
+}
+.wrapper{
+}
+.title{
+ text-align: center;
+}
+@media all and (min-width:600px) and (max-width:800px){
+  img{
+    content:url("http://placehold.it/400x400")
+  }
+}
+@media all and (min-width:800px) and (max-width:1020px){
+  img{
+    content:url("http://placehold.it/512x512")
+  }
+}
+@media all and (min-width:1024px){
+  img{
+    content:url("http://placehold.it/340x340");
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    float:left;
+    width:33%;
+    padding-left:1px;
+    padding-bottom:1px;
+    margin:0 auto;
+  }
+}
+@media all and (min-width:600px) and (max-width:1024px){
+  img{
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    width:49%;
+    float:left;
+    padding-left:1px;
+    padding-bottom:1px;
+  }
+}
