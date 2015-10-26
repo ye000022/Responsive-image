@@ -41,3 +41,9 @@ img{
     padding-bottom:1px;
   }
 }
+@media all and (max-width:400px)
+{
+  img{
+    content:url("http://placehold.it/400x400");
+  }
+}
